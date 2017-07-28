@@ -1,0 +1,123 @@
+body{
+  font-family: helvetica, sans-serif;
+  font-size: 100%;
+}
+input{
+  padding: 5px 5px 5px 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  width: 160px;
+}
+label{
+
+  position: relative;
+  top: 4px;
+  width: 160px
+  float: left;
+}
+
+.background-car{
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  opacity: 10%;
+  z-index: -2;
+
+}
+.textsell{
+  color: #ffffff;
+  position: absolute;
+  top: 3%;
+  left: 61%;
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: right;
+}
+.sellbutsub{
+  position: absolute;
+  top: 68%;
+  left: 27%;
+  font-size: 30px;
+  color: #ffffff;
+  z-index: 1;
+  background-color: transparent;
+  border: 2px solid;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+ .sellbutsub{
+    box-shadow: 0 8px 16px 0 rgba(1,1,1,1), 0 6px 20px 0 rgba(1,1,1,1);
+}
+ .sellbutsub:hover {
+    box-shadow: 0 12px 16px 0 rgba(1,1,1,1),0 17px 50px 0 rgba(1,1,1,1);
+}
+
+.seller-details{
+  position: absolute;
+  top: 33%;
+  left: 10%;
+  z-index: 1;
+}
+.car-selldetails{
+  position: absolute;
+  top: 33%;
+  left: 35%;
+  z-index: 1;
+  float: left;
+}
+
+
+.text1{
+  color: #ffffff;
+  position: absolute;
+  font-size: 35px;
+  top: 8%;
+  left: 10%;
+  z-index: 1;
+    font-family: sans-serif;
+}
+.text2{
+  color: #ffffff;
+  position: absolute;
+  font-size: 35px;
+  top: 8%;
+  left: 35%;
+  z-ind35x: 1;
+    font-family: sans-serif;
+
+}
+
+ .sellbutsub span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.sellbutsub span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+ul{
+  text-align: left;
+  font-size: 50px;
+}
+
+#cars{ 
+  position: fixed;
+  color: #ffffff;
+  top:80%;
+  left: 80%;
+
+}
+.sym{
+  font-size: 60px;
+}
