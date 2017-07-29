@@ -31,7 +31,7 @@ label{
   color: #ffffff;
   position: absolute;
   top: 3%;
-  left: 61%;
+  left: 59%;
     font-size: 45px;
     font-family: sans-serif;
     text-align: right;
@@ -39,7 +39,7 @@ label{
 .sellbutsub{
   position: absolute;
   top: 68%;
-  left: 27%;
+  left: 22%;
   font-size: 30px;
   color: #ffffff;
   z-index: 1;
@@ -57,16 +57,15 @@ label{
 
 .seller-details{
   position: absolute;
-  top: 33%;
-  left: 10%;
+  top: 35%;
+  left: 7%;
   z-index: 1;
 }
 .car-selldetails{
   position: absolute;
-  top: 33%;
-  left: 35%;
+  top: 35%;
+  left: 30%;
   z-index: 1;
-  float: left;
 }
 
 
@@ -74,17 +73,18 @@ label{
   color: #ffffff;
   position: absolute;
   font-size: 35px;
-  top: 8%;
-  left: 10%;
+  top: 35%;
+  left: 8%;
   z-index: 1;
     font-family: sans-serif;
+    float: left;
 }
 .text2{
   color: #ffffff;
   position: absolute;
   font-size: 35px;
-  top: 8%;
-  left: 35%;
+  top: 35%;
+  left: 32%;
   z-ind35x: 1;
     font-family: sans-serif;
 
