@@ -16,14 +16,20 @@
 <div class="text1">Seller Details</div>
 
 <div class="seller-details"> 
-<form>
+<form action="upload.php" method="post" enctype="multipart/form-data">
 <ul>
 <input type="text" name="sellercontactnumber" placeholder="Enter Your Contact Number"><br>
 <input type="text" name="sellerfirstname" placeholder="Enter Your First Name"><br>
 <input type="text" name="sellerlastname" placeholder="Enter Your Last Name"><br>
-<input type="text" name="sellercontactnumber" placeholder="Your Contact Number">
+<input type="text" name="sellercontactnumber" placeholder="Your Contact Number"><br>
+<input type="file" name="fileToUpload" id="fileToUpload"><br>
+<input type="submit" value="Upload Image" name="submit">
+
 </ul>
 </form>
+<ul>
+
+</ul>
 </div>
 
 <div class="text2">Car Details </div>
@@ -40,7 +46,6 @@
  </ul>
  </form>
 </div>
-
  <ul>
 <button class="sellbutsub">Submit</button>
 </ul>
