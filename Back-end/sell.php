@@ -32,9 +32,10 @@
         echo $select;
       }
       ?><br /><br />
+     seller name : <input type="text" id="colorInput" /><br /><br />
+      seller price : <input type="text" id="colorInput" /><br /><br />
     Car's Color : <input type="text" id="colorInput" /><br /><br />
     Sell Price : <input type="text" id="sellPriceInput" /><br /><br />
-    Car's Image : <input type="text" id="imageURL" /><br /><br />
     Today's Date : <span id="tday"><?php echo date('m/d/Y h:i:s a', time()); ?></span><br /><br />
 
     <button type="button" id="sbtButton">Submit</button>
